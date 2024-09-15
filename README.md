@@ -98,6 +98,9 @@
     ![image](https://github.com/user-attachments/assets/63c2a56b-28bf-4c50-a3ec-3e8e535a3829)
     a) Poly.9 giving error upon editing its drc rules in response to a DRC check
     ![image](https://github.com/user-attachments/assets/9195c647-e2fb-42c8-aa96-65b3279af4be)
+    b) Similarly for poly.2 upon changing its drc rule, it is giving an error.
+    ![image](https://github.com/user-attachments/assets/49c99bf4-a8b8-4537-a0bb-e9d88fa54b30)
+
 
 15) Lab to implement poly resistor spacing and diff and tap and seeing those error using drc why command in tkcon
     ![image](https://github.com/user-attachments/assets/6d6ff13e-c864-4b7b-b724-7a122b32d0be)
