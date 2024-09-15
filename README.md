@@ -96,9 +96,9 @@
     ![image](https://github.com/user-attachments/assets/bf13cce1-b45b-47d7-bbb3-253ffbc71cb6)
 13) DRC rules pertaining to poly as defined 
     ![image](https://github.com/user-attachments/assets/63c2a56b-28bf-4c50-a3ec-3e8e535a3829)
-    a) Poly.9 giving error upon editing its drc rules in response to a DRC check
+    a) Poly.9 giving error upon editing its drc rules in tech file in response to a DRC check.
     ![image](https://github.com/user-attachments/assets/9195c647-e2fb-42c8-aa96-65b3279af4be)
-    b) Similarly for poly.2 upon changing its drc rule, it is giving an error.
+    b) Similarly for poly.2 upon changing its drc rule in tech file, it is giving an error.
     ![image](https://github.com/user-attachments/assets/49c99bf4-a8b8-4537-a0bb-e9d88fa54b30)
 
 
