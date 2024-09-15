@@ -134,17 +134,27 @@
 5) Width and length of std cell are odd multiples of x pitch and ypitch. Here they are 3 and 9.
    ![image](https://github.com/user-attachments/assets/6c7806ec-69ed-485f-b010-6e471c7e75df)
 6) To define a port write the following commands in console window after selecting them:
-1)	For output port Y
+1)	For output port Y:
+   
 port class output
+
 port use signal
-2)	For Input
+
+3)	For Input
 port class input
+
 port use signal
-3)	For VPWR
+
+4)	For VPWR
+
 port class inout
+
 port use power
-4)	For VGND
+
+5)	For VGND
+
 port class inout
+
 port use ground
 
 7) Saved file as sky130_vsdkashinv.mag
