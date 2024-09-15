@@ -2,10 +2,10 @@
 **SKY130_D1_SK3**:
 
 1) Openlane loaded and design preparation is isnitiated.
-![image](https://github.com/user-attachments/assets/07227471-b4b2-4f75-8e08-e2588389e46c)
+ ![image](https://github.com/user-attachments/assets/07227471-b4b2-4f75-8e08-e2588389e46c)
 
 2)Synthesis performed in openlane
-![image](https://github.com/user-attachments/assets/2ce62a89-cbfe-470f-a8c1-e0eff3aa0bc4)
+ ![image](https://github.com/user-attachments/assets/2ce62a89-cbfe-470f-a8c1-e0eff3aa0bc4)
 
 3) Number of cell synthesised is highlighted in the picture below:
    ![image](https://github.com/user-attachments/assets/1d2c8fa0-ae80-45ee-8f5d-4fb0952e4a59)
@@ -18,7 +18,7 @@
    **SKY130_D2_SK1**
    
 1) Floorplan.tcl shows the default parameters.
-  ![image](https://github.com/user-attachments/assets/4ecd6734-c2f9-46ea-b5e5-0ba41a192e7b)
+   ![image](https://github.com/user-attachments/assets/4ecd6734-c2f9-46ea-b5e5-0ba41a192e7b)
 
 3)  Floorplanning run successfully
     ![image](https://github.com/user-attachments/assets/328a2928-4f6b-4c85-aee9-cffdd3f24000)
@@ -26,7 +26,7 @@
 5)  Core utilization is a representation of how much core area is utilized.
     ![image](https://github.com/user-attachments/assets/d24add31-fe4b-47d8-8936-8aeaba09e55d)
 7) The die are as highlighted in the def files is 660685 X 671405 
-   ![image](https://github.com/user-attachments/assets/635c5e01-0524-4e5e-ad46-765c4e7cf4ea)
+    ![image](https://github.com/user-attachments/assets/635c5e01-0524-4e5e-ad46-765c4e7cf4ea)
 9) Running floorplan in magic
     ![image](https://github.com/user-attachments/assets/45d3e1c3-3f83-4f2a-806d-5a0bfb356363)
     ![image](https://github.com/user-attachments/assets/70631889-adcb-40f7-a480-ed0c0a5eb3f7)
@@ -96,9 +96,12 @@
     ![image](https://github.com/user-attachments/assets/bf13cce1-b45b-47d7-bbb3-253ffbc71cb6)
 13) DRC rules pertaining to poly as defined 
     ![image](https://github.com/user-attachments/assets/63c2a56b-28bf-4c50-a3ec-3e8e535a3829)
-14) Lab to implement poly resistor spacing and diff and tap and seeing those error using drc why command in tkcon
+    a) Poly.9 giving error upon editing its drc rules in response to a DRC check
+    ![image](https://github.com/user-attachments/assets/9195c647-e2fb-42c8-aa96-65b3279af4be)
+
+15) Lab to implement poly resistor spacing and diff and tap and seeing those error using drc why command in tkcon
     ![image](https://github.com/user-attachments/assets/6d6ff13e-c864-4b7b-b724-7a122b32d0be)
-15) Lab challenge exercise to describe DRC error as a geometrical construct.
+16) Lab challenge exercise to describe DRC error as a geometrical construct.
   a) Geometric rules pertaining to nwell and their description in tech file:
   ![image](https://github.com/user-attachments/assets/dfa70047-8f20-428a-bad6-e5c4865eece1)
   ![image](https://github.com/user-attachments/assets/21550eb5-0bbe-49a3-b44d-bcd0adfa40c9)
@@ -107,18 +110,18 @@
   c) Observe temporary layer, which shows the error
  ![image](https://github.com/user-attachments/assets/94629ec8-c928-4607-bdb4-c5f812210048)
 
-16) Lab to find missing or incomplete rule and fix them. Eg. n-well:
+17) Lab to find missing or incomplete rule and fix them. Eg. n-well:
     a) Rules pertaining to n-well
     ![image](https://github.com/user-attachments/assets/c34b1f6b-31ba-4641-b469-4cbf5cbac5c1)
-17) Load n-well
+18) Load n-well
     ![image](https://github.com/user-attachments/assets/f34b1f24-dc57-4c40-ab88-b4477067865c)
-18) Create a new DRC rule. Copy cifmaxwidth rule to nwell and change name to nwell_untapped.
+19) Create a new DRC rule. Copy cifmaxwidth rule to nwell and change name to nwell_untapped.
     ![image](https://github.com/user-attachments/assets/1026bf93-b281-4604-b579-a781dbfdd9fa)
-19) Create templayer. Create n well that are tapped and leave all n well that are not tapped.
+20) Create templayer. Create n well that are tapped and leave all n well that are not tapped.
     ![image](https://github.com/user-attachments/assets/47bee251-9327-499d-9d1f-ed51acf567e0)
-20) Wrap the rules in variant drc full as shown. Implying it is only checked for drc style full.
+21) Wrap the rules in variant drc full as shown. Implying it is only checked for drc style full.
     ![image](https://github.com/user-attachments/assets/be7d1af6-fe2f-44de-bb01-fa5a79d32934)
-21) Check implementation of new DRC rule for tapped and untapped nwell:
+22) Check implementation of new DRC rule for tapped and untapped nwell:
     ![image](https://github.com/user-attachments/assets/6adea09a-35f3-42eb-96a7-df9a3219c42e)
 
     **SKY130_D4_SK1**
