@@ -308,7 +308,7 @@ Fix them using the following commands :
     ![image](https://github.com/user-attachments/assets/d639ad04-6889-46ef-9ccc-a55cbfeab2d5)
 20) Optimise parameters to reduce output load capacitances
     ![image](https://github.com/user-attachments/assets/0c8f2819-4b04-48a9-9446-3e40c9c6494e)
-    Although no pins are present we sexperiment with pin replacement and output load. Replace pins of net _3697 from 2 to 1
+    Although no pins are present we experiment with pin replacement and output load. Replace pins of net _3697 from 2 to 1
     ![image](https://github.com/user-attachments/assets/701001cc-f8a6-4ac5-9cb3-05e51c459250)
     Observe capacitance to be reduced:
     ![image](https://github.com/user-attachments/assets/d5a81ac6-999c-4302-b500-56416ce78af7)
