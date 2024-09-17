@@ -337,7 +337,7 @@ Fix them using the following commands :
     >Routing Completed
     >![image](https://github.com/user-attachments/assets/1278c5d3-0ebd-4fc7-b92b-6ad959275c5b)
 3) Post routing:
-    > Paratics extraction
+    > Parasitic extraction
     ![image](https://github.com/user-attachments/assets/d1a7c90f-de7b-4b58-a6a1-422f814c3159)
     > SPEF file creation:
     ![image](https://github.com/user-attachments/assets/c045d961-71f6-46d2-acca-8413bb11889c)
