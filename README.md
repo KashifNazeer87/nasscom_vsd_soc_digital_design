@@ -1,11 +1,80 @@
 
+**THEORY**
+
+In this project we will inculcate a standard cell design based on skywater PDKs and plug it in a design Picorv32, a RISC V CPU core. 
+It implements the RISC-V instruction set architecture (ISA).
+
+A brief description of the Picorv32:
+![picorv32a core and die](https://github.com/user-attachments/assets/cf1a7986-85ab-42c7-be1d-d3318a901f5d)
+The die is the part of a wafer of Silicon or any other material, but in semiconductor industry its Silicon. The core or the are within which chips are contained are compartmented within the core. There are input and output contacts, clocks on the IO pad that surround the core area and is a no logic zone.
+
+The IPs are the intellectual property and they are logic blocks that took some intelligence to be builts.
+![picorv32a all parts](https://github.com/user-attachments/assets/14f6fc27-a645-4a94-9f96-1b357931b27a)
+
+Final project showing our chip as encircled on the PCB after being manufactured and packaged by the foundary:
+![final project](https://github.com/user-attachments/assets/cae32f48-e6b0-40de-b50c-de9b42502a62)
+
+
+
+
+
+
+Pictorial representation of the processes and resources required for Digital ASIC Design
+![ASIC Basic](https://github.com/user-attachments/assets/b0a61623-a9ef-40b0-b846-035adb238027)
+
+RTL designs: Basic netlist or a connection of network of the logics. There are several open sources that cater to development of a RTL design: Eg. github.
+PDKs : Process design kits, they contain files and resources pertaining to necessary information required for development of an IC.
+EDA Tools: They are design automation tool that nculcate the whole physical design flow processes , namely : QFlow, Openroad, Openlane.
+
+
+
+Basic ASIC Flow Architecture:
+![vsdworkshop (Snapshot 1)  Running  - Oracle VM VirtualBox 17-09-2024 08_33_01](https://github.com/user-attachments/assets/91d79e50-7bdd-48d1-82b9-10abcecab262)
+
+
+Steps that occur in Physical design:
+1) Synthesis: It is the step involving RTL Synthesis
+2) Floorplanning: It involves placing the macro as well as the rows used for placement and routing and defines input and output ports.
+3) Placement : Placement of component cells in the design.
+4) CTS (Clock Tree Synthesis) : Clock network distribution.
+5) Routing : Defining network routes.
+6) Tapeout : Define final GDSII layout file from routing def file.
+7) Signoff : Final step involving DRC, LVS ,Antenna Checks and ERC.
+
+The tools that we utilized in our project are :
+1) Yosys Synthesis suite.
+2) Openlane RTL2GDS digital design suite.
+3) NGSpice for characterization.
+4) MAGIC for layout and floorplanning.
+5) OpenSTA for static timing analysis. 
+
+The Openlane flow in interactive mode is genereally is as follows:
+1) prep -design <design> -tag <tag> <config> -init_design_config -overwrite
+2) run_synthesis
+3) run_floorplan
+4) run_placement
+5) run_cts
+6) run_routing
+7) run_magic
+8) run_magic_spice_export
+9) run_magic_drc
+10) run_netgen
+11) run_magic_antenna_clock
+
+
+
+
+
+
+
+
 **DAY 1**:
 
 1) Openlane loaded and design preparation is isnitiated.
  ![image](https://github.com/user-attachments/assets/07227471-b4b2-4f75-8e08-e2588389e46c)
 
  2)Synthesis performed in openlane
- ![image](https://github.com/user-attachments/assets/2ce62a89-cbfe-470f-a8c1-e0eff3aa0bc4)
+  ![image](https://github.com/user-attachments/assets/2ce62a89-cbfe-470f-a8c1-e0eff3aa0bc4)
 
 3) Number of cell synthesised is highlighted in the picture below:
    ![image](https://github.com/user-attachments/assets/1d2c8fa0-ae80-45ee-8f5d-4fb0952e4a59)
@@ -109,7 +178,7 @@
   b) Observe nwell shrink, the are within is highlighted:
   ![image](https://github.com/user-attachments/assets/c8b0595a-6572-4cbd-a874-97653a7cd7ca)
   c) Observe temporary layer, which shows the error
- ![image](https://github.com/user-attachments/assets/94629ec8-c928-4607-bdb4-c5f812210048)
+  ![image](https://github.com/user-attachments/assets/94629ec8-c928-4607-bdb4-c5f812210048)
 
 21) Lab to find missing or incomplete rule and fix them. Eg. n-well:
     a) Rules pertaining to n-well
