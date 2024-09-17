@@ -73,6 +73,10 @@ The Openlane flow in interactive mode is genereally is as follows:
 
 
 
+
+**LABS**
+
+
 **DAY 1**:
 
 1) Openlane loaded and design preparation is isnitiated.
