@@ -7,6 +7,8 @@ It implements the RISC-V instruction set architecture (ISA).
 
 
 A brief description of the Picorv32:
+
+
 ![picorv32a core and die](https://github.com/user-attachments/assets/cf1a7986-85ab-42c7-be1d-d3318a901f5d)
 
 The die is the part of a wafer of Silicon or any other material, but in semiconductor industry its Silicon. The core or the are within which chips are contained are compartmented within the core. There are input and output contacts, clocks on the IO pad that surround the core area and is a no logic zone.
