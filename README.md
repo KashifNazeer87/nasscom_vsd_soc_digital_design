@@ -58,8 +58,6 @@
 5) Removal of layer shows DRC errors, as highlighted by white patches in the picture.
    ![image](https://github.com/user-attachments/assets/f1333517-295a-4bd9-9070-fa6b76b9e793)
 
-
-****   
    
 6) Extrack the layout design and use it for ngspice along with it all the parasitic capacitances and resistances will be extracted as well.
    ![image](https://github.com/user-attachments/assets/ab8c6fbc-5462-4e7e-b017-5018ae9b67f3)
@@ -185,29 +183,43 @@ port use ground
 
     Now forgo the following steps:
       prep -design picorv32a -tag 11-09_16-08 -overwrite
+
     set lefs [glob $::env(DESIGN_DIR)/src/*.lef]
+
     add_lefs -src $lefs
+
     set lefs [glob $::env(DESIGN_DIR)/src/*.lef]
+
     add_lefs -src $lefs
+
     echo $::env(SYNTH_STRATEGY)
+
     set ::env(SYNTH_STRATEGY) "DELAY 3"
-	   echo $::env(SYNTH_BUFFERING)
+
+    echo $::env(SYNTH_BUFFERING)
+
     echo $::env(SYNTH_SIZING)
-  	 set ::env(SYNTH_SIZING) 1
+
+    set ::env(SYNTH_SIZING) 1
+
     echo $::env(SYNTH_DRIVING_CELL)
 
 
-13) Parameters optimised to minimise tns and wns value although with the tradeoff of gain in area
+14) Parameters optimised to minimise tns and wns value although with the tradeoff of gain in area
     ![image](https://github.com/user-attachments/assets/51f2971e-88be-4d2c-bd70-2e905c60b4f0)
-14) Now run the floorplan
+15) Now run the floorplan
     ![image](https://github.com/user-attachments/assets/e5588854-407c-47de-9762-5526c5839d40)
-15) On running floorplan we get the following errors
+16) On running floorplan we get the following errors
     ![image](https://github.com/user-attachments/assets/c5962bd9-0f92-44d9-b121-f8f23f735318)
 Fix them using the following commands :
  1. init_floorplan
+ 
  2. place_io
+ 
  3. tap_decap_or
+
     floorplan.def is created.
+
 16) Run Placement
     ![image](https://github.com/user-attachments/assets/496b40f7-9521-4f5b-b05c-4257899e6ca6)
 17) Load placement def file in magic
@@ -233,7 +245,7 @@ Fix them using the following commands :
 
 
 
-22) Run CTS
+21) Run CTS
     ![vsdworkshop (Snapshot 1)  Running  - Oracle VM VirtualBox 17-09-2024 05_42_11](https://github.com/user-attachments/assets/9425cbbd-d332-43f2-a783-634626c5869d)
 
     **DAY 5**
