@@ -349,6 +349,14 @@ Fix them using the following commands :
 
 
 
+Acknowledgements
+
+Kunal Ghosh, Co-founder VSD Coporation Private Limited.
+
+Nickson P Jose, Physical Design Engineer, Intel Corporation.
+
+R. Timothy Edwards, Senior Vice President of Analog and Design, efabless Corporation.
+
 
 
 
