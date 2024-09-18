@@ -53,7 +53,7 @@ The tools that we utilized in our project are :
 4) MAGIC for layout and floorplanning.
 5) OpenSTA for static timing analysis. 
 
-The Openlane flow in interactive mode is genereally is as follows:
+The Openlane flow in interactive mode is generally is as follows:
 1) prep -design <design> -tag <tag> <config> -init_design_config -overwrite
 2) run_synthesis
 3) run_floorplan
