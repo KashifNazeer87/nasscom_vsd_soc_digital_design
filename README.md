@@ -101,19 +101,19 @@ The Openlane flow in interactive mode is genereally is as follows:
 3)  Floorplanning run successfully
     ![image](https://github.com/user-attachments/assets/328a2928-4f6b-4c85-aee9-cffdd3f24000)
 
-5)  Core utilization is a representation of how much core area is utilized.
+5)  Core utilization is a representation of how much core area is utilized. In this case it's 35. The lesser the core utilization, the better its is for us
     ![image](https://github.com/user-attachments/assets/d24add31-fe4b-47d8-8936-8aeaba09e55d)
-7) The die are as highlighted in the def files is 660685 X 671405 
+7) The die are as highlighted in the def files is 660685 X 671405 = 443587212425 sq units
     ![image](https://github.com/user-attachments/assets/635c5e01-0524-4e5e-ad46-765c4e7cf4ea)
-9) Running floorplan in magic
+9) Running floorplan in magic:
     ![image](https://github.com/user-attachments/assets/45d3e1c3-3f83-4f2a-806d-5a0bfb356363)
     ![image](https://github.com/user-attachments/assets/70631889-adcb-40f7-a480-ed0c0a5eb3f7)
-12) Zoomed in floorplan showing grid cell and pin cell
+12) Zoomed in floorplan showing grid cell and pin cell:
     ![image](https://github.com/user-attachments/assets/446ac6aa-9963-4ba7-9b93-e50c7b17b55e)
 
 
 
-13) Executing placement in openlane flow
+13) Executing placement in openlane flow:
     ![image](https://github.com/user-attachments/assets/85872b00-af58-4c44-b6e0-046091314d58)
 14) Placement observed using magic. All the standard cells are within column and are legally placed.
     ![image](https://github.com/user-attachments/assets/a55e3c87-670d-4dec-ae8f-705b3cdb3a30)
@@ -126,12 +126,12 @@ The Openlane flow in interactive mode is genereally is as follows:
   ![image](https://github.com/user-attachments/assets/77c4c599-33c3-4065-9ab2-9066ab73dfb6)
   ![image](https://github.com/user-attachments/assets/c3c9efcd-3915-49cc-9376-bd4b76943424)
   ![image](https://github.com/user-attachments/assets/b3689683-3c99-4f4a-ba18-826d99e346fb)
-2) Spice deck creation for CMOS inverter. Sky130A.tech file copied
+2) Spice deck creation for CMOS inverter. Sky130A.tech file copied:
    ![image](https://github.com/user-attachments/assets/dbb82db5-ce2c-418b-b411-a78019c738c9)
    ![image](https://github.com/user-attachments/assets/1848d6be-217a-425a-a143-194a1e94fd17)
-3) Load an inverter standard cell layout through magic
+3) Load an inverter standard cell layout through magic.
    ![image](https://github.com/user-attachments/assets/0f5ec826-9796-4a31-8542-51a7058790e8)
-4) tkcon console to interact with the layout
+4) tkcon console to interact with the layout.
    ![image](https://github.com/user-attachments/assets/4e66d428-bc76-4c48-bab1-82f89d4db4e7)
 5) Removal of layer shows DRC errors, as highlighted by white patches in the picture.
    ![image](https://github.com/user-attachments/assets/f1333517-295a-4bd9-9070-fa6b76b9e793)
@@ -139,7 +139,7 @@ The Openlane flow in interactive mode is genereally is as follows:
    
 6) Extrack the layout design and use it for ngspice along with it all the parasitic capacitances and resistances will be extracted as well.
    ![image](https://github.com/user-attachments/assets/ab8c6fbc-5462-4e7e-b017-5018ae9b67f3)
-7) Check if the new file is created in the vsdstdcelldesign
+7) Check if the new file is created in the vsdstdcelldesign.
    ![image](https://github.com/user-attachments/assets/dc8b58f4-2e0e-41f6-8dd2-b612bb55e59e)
 8) The spice program initially looks like :
    ![image](https://github.com/user-attachments/assets/a88a630a-6927-44f1-9cdd-a483fc0e099f)
@@ -304,11 +304,11 @@ Fix them using the following commands :
     ![image](https://github.com/user-attachments/assets/45bc1e1e-72c7-4302-849e-fdda94d1ba89)
 18) Expand to see the connectivity to the power and ground rails:
     ![image](https://github.com/user-attachments/assets/32dbd8a6-1b03-40f9-a204-71037cfc0d35)
-19) Our cell is in lef placement
+19) Our cell is in lef file pertaining to placement
     ![image](https://github.com/user-attachments/assets/d639ad04-6889-46ef-9ccc-a55cbfeab2d5)
 20) Optimise parameters to reduce output load capacitances
     ![image](https://github.com/user-attachments/assets/0c8f2819-4b04-48a9-9446-3e40c9c6494e)
-    Although no pins are present we experiment with pin replacement and output load. Replace pins of net _3697 from 2 to 1
+    Although no buffer pins are present we experiment with pin replacement and output load. Replace pins of net _3697 from 2 to 1
     ![image](https://github.com/user-attachments/assets/701001cc-f8a6-4ac5-9cb3-05e51c459250)
     Observe capacitance to be reduced:
     ![image](https://github.com/user-attachments/assets/d5a81ac6-999c-4302-b500-56416ce78af7)
