@@ -119,7 +119,7 @@ The Openlane flow in interactive mode is genereally is as follows:
     ![image](https://github.com/user-attachments/assets/85872b00-af58-4c44-b6e0-046091314d58)
 14) Placement observed using magic. All the standard cells are within column and are legally placed.
     ![image](https://github.com/user-attachments/assets/a55e3c87-670d-4dec-ae8f-705b3cdb3a30)
-15) Pins are equidistant now.
+15) Pins are equidistant now and standard cells lie in the left bottom corner.
    ![image](https://github.com/user-attachments/assets/fd068e8f-15c1-4d5b-8f39-cec20a588c21)
 
 **DAY 3**
