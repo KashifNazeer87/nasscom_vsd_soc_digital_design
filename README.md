@@ -255,14 +255,14 @@ port use ground
 
 12) Synthesis initiated on openlane
     With the following steps:
-    prep -design picorv32a -tag 11-09_16-08 -overwrite
+    prep -design picorv32a -tag <tag_nam> -overwrite
     set lefs [glob $::env(DESIGN_DIR)/src/*.lef]
     add_lefs -src $lefs
 
     ![image](https://github.com/user-attachments/assets/7a174d27-e003-42a7-9729-fe28ecad8841)
 
     Now forgo the following steps:
-      prep -design picorv32a -tag 11-09_16-08 -overwrite
+      prep -design picorv32a -tag <tag_name> -overwrite
 
     set lefs [glob $::env(DESIGN_DIR)/src/*.lef]
 
