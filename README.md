@@ -82,7 +82,7 @@ The Openlane flow in interactive mode is genereally is as follows:
 1) Openlane loaded and design preparation is isnitiated.
  ![image](https://github.com/user-attachments/assets/07227471-b4b2-4f75-8e08-e2588389e46c)
 
- 2)Synthesis performed in openlane
+2)Synthesis performed in openlane
   ![image](https://github.com/user-attachments/assets/2ce62a89-cbfe-470f-a8c1-e0eff3aa0bc4)
 
 3) Number of cell synthesised is highlighted in the picture below:
