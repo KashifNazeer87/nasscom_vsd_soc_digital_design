@@ -13,7 +13,7 @@ A brief description of the Picorv32:
 
 The die is the part of a wafer of Silicon or any other material, but in semiconductor industry its Silicon. The core or the are within which chips are contained are compartmented within the core. There are input and output contacts, clocks on the IO pad that surround the core area and is a no logic zone.
 
-The IPs are the intellectual property and they are logic blocks that took some intelligence to be builts.
+The IPs are the intellectual property and they are logic blocks that took some intelligence to be built.
 ![picorv32a all parts](https://github.com/user-attachments/assets/14f6fc27-a645-4a94-9f96-1b357931b27a)
 
 Final project showing our chip as encircled on the PCB after being manufactured and packaged by the foundary:
