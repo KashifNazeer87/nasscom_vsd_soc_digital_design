@@ -101,7 +101,9 @@ The Openlane flow in interactive mode is genereally is as follows:
 3)  Floorplanning run successfully
     ![image](https://github.com/user-attachments/assets/328a2928-4f6b-4c85-aee9-cffdd3f24000)
 
-5)  Core utilization is a representation of how much core area is utilized. In this case it's 35. The lesser the core utilization, the better its is for us
+5)  Core utilization is a representation of how much core area is utilized. In this case it's 35. The lesser the core utilization, the better it is for
+   us.
+
     ![image](https://github.com/user-attachments/assets/d24add31-fe4b-47d8-8936-8aeaba09e55d)
 7) The die are as highlighted in the def files is 660685 X 671405 = 443587212425 sq units
     ![image](https://github.com/user-attachments/assets/635c5e01-0524-4e5e-ad46-765c4e7cf4ea)
