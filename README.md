@@ -79,7 +79,7 @@ The Openlane flow in interactive mode is generally is as follows:
 
 **DAY 1**:
 
-1) Openlane loaded and design preparation is isnitiated.
+1) Openlane loaded and design preparation is initiated.
  ![image](https://github.com/user-attachments/assets/07227471-b4b2-4f75-8e08-e2588389e46c)
 
 2)Synthesis performed in openlane
