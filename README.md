@@ -1,7 +1,7 @@
 
 **THEORY**
 
-In this project we will inculcate a standard cell design based on skywater PDKs and plug it in a design Picorv32, a RISC V CPU core. 
+In this project we will incorporate a standard cell design based on skywater PDKs and plug it in a design Picorv32, a RISC V CPU core. 
 It implements the RISC-V instruction set architecture (ISA).
 
 
