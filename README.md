@@ -1,5 +1,5 @@
 
-**THEORY**
+# THEORY
 
 In this project we will incorporate a standard cell design based on skywater PDKs and plug it in a design Picorv32, a RISC V CPU core. 
 It implements the RISC-V instruction set architecture (ISA).
@@ -74,10 +74,9 @@ The Openlane flow in interactive mode is generally is as follows:
 
 
 
-**LABS**
 
 
-**DAY 1**:
+# DAY 1
 
 1) Openlane loaded and design preparation is initiated.
  ![image](https://github.com/user-attachments/assets/07227471-b4b2-4f75-8e08-e2588389e46c)
@@ -93,7 +92,7 @@ The Openlane flow in interactive mode is generally is as follows:
 6) Configuration README.md files showing all the parameters.
    ![image](https://github.com/user-attachments/assets/2d0fe742-ec41-4a48-834e-f861275f7a04)
 
-   **DAY 2**
+   # DAY 2
    
 1) Floorplan.tcl shows the default parameters.
    ![image](https://github.com/user-attachments/assets/4ecd6734-c2f9-46ea-b5e5-0ba41a192e7b)
@@ -122,7 +121,7 @@ The Openlane flow in interactive mode is generally is as follows:
 15) Pins are equidistant now and standard cells lie in the left bottom corner.
    ![image](https://github.com/user-attachments/assets/fd068e8f-15c1-4d5b-8f39-cec20a588c21)
 
-**DAY 3**
+# DAY 3
 
 1) Upon changing IOmode variable from floorplan.tcl of configuration in openlane and running floorplanning, it is found that pin configuration has changed.
   ![image](https://github.com/user-attachments/assets/77c4c599-33c3-4065-9ab2-9066ab73dfb6)
@@ -205,7 +204,7 @@ The Openlane flow in interactive mode is generally is as follows:
 26) Check implementation of new DRC rule for tapped and untapped nwell:
     ![image](https://github.com/user-attachments/assets/6adea09a-35f3-42eb-96a7-df9a3219c42e)
 
-    **DAY 4**
+    # DAY 4
 
 1) Load tracks.info to show track info from openlane directory
    ![image](https://github.com/user-attachments/assets/cb15bd82-c5dc-4851-a404-219926be4da1)
@@ -328,7 +327,7 @@ Fix them using the following commands :
 21) Run CTS
     ![vsdworkshop (Snapshot 1)  Running  - Oracle VM VirtualBox 17-09-2024 05_42_11](https://github.com/user-attachments/assets/9425cbbd-d332-43f2-a783-634626c5869d)
 
-    **DAY 5**
+    # DAY 5
   
 1) Generate PDN
    ![image](https://github.com/user-attachments/assets/b2864949-6d8a-422c-bc2c-34a69fba9f49)
